@@ -43,7 +43,7 @@ function getDateTime() {
     "Friday",
     "Saturday",
   ];
-  // 12 hours format:
+  // 12 hours format
   hour = hour % 12;
   if (hour < 10) {
     hour = "0" + hour;
