@@ -322,7 +322,7 @@ function celciusToFahrenheit(temp) {
 }
 
 // array of cities
-import cities from "./cities.js";
+import cities from "cities.js";
 
 var currentFocus;
 search.addEventListener("input", function (e) {
