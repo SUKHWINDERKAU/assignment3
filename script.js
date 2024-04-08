@@ -28,7 +28,7 @@ let currentCity = "";
 let currentUnit = "c";
 let hourlyorWeek = "week";
 
-// function to get date and time
+// function to get date and time:
 function getDateTime() {
   let now = new Date(),
     hour = now.getHours(),
